@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+     <title>Hoque Ltd - Welcome</title>
+</head>
+
+<body>
+     <main>
+          <section id="home" class="bg-image">
+               <header>
+                    <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+                         <div class="container mx-auto">
+                              <a class="navbar-brand fs-3 font-bold text-white" href="index.html">Hoque Ltd.</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                   data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                   aria-expanded="false" aria-label="Toggle navigation">
+                                   <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                   <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                             <a class="nav-link active text-white" aria-current="page"
+                                                  href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link text-white" href="#about">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link text-white" href="#services">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link text-white" href="#projects">Projects</a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link text-white" href="#pricing">Pricing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link text-white" href="#contact">Contact</a>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </nav>
+               </header>
+
+               <div class="hero-section position-relative d-flex align-items-center">
+                    <div class="row container mx-auto">
+                         <div class="col text-light d-flex justify-content-start align-items-center">
+                              <div>
+                                   <h2 class="display-5 fw-bold lh-base">Build Your Landing Page With <span
+                                             class="text-decoration-underline">Hoque Ltd.</span></h2>
+                                   <p class="fs-4 mt-3">We develop websites as your need and provide 24/7 support with
+                                        best quality</p>
+                                   <a href="#contact"><button
+                                             class="btn btn-outline border border-2 text-light px-4 mt-4">Hire
+                                             Now</button></a>
+                              </div>
+                         </div>
+                         <div class="col d-flex justify-content-end align-items-center">
+                              <img src="images/hero-img.png" class="d-block w-75" alt="Hero Image" draggable="false">
+                         </div>
+                    </div>
+
+                    <div class="w-100 position-absolute bottom-0">
+                         <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 160"
+                              version="1.1" xmlns="http://www.w3.org/2000/svg">
+                              <defs>
+                                   <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                                        <stop stop-color="rgba(255, 255, 255, 0.98)" offset="0%"></stop>
+                                        <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                                   </linearGradient>
+                              </defs>
+                              <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                                   d="M0,112L34.3,98.7C68.6,85,137,59,206,56C274.3,53,343,75,411,80C480,85,549,75,617,77.3C685.7,80,754,96,823,109.3C891.4,123,960,133,1029,125.3C1097.1,117,1166,91,1234,77.3C1302.9,64,1371,64,1440,66.7C1508.6,69,1577,75,1646,85.3C1714.3,96,1783,112,1851,104C1920,96,1989,64,2057,48C2125.7,32,2194,32,2263,26.7C2331.4,21,2400,11,2469,26.7C2537.1,43,2606,85,2674,104C2742.9,123,2811,117,2880,98.7C2948.6,80,3017,48,3086,53.3C3154.3,59,3223,101,3291,122.7C3360,144,3429,144,3497,122.7C3565.7,101,3634,59,3703,45.3C3771.4,32,3840,48,3909,45.3C3977.1,43,4046,21,4114,29.3C4182.9,37,4251,75,4320,93.3C4388.6,112,4457,112,4526,98.7C4594.3,85,4663,59,4731,53.3C4800,48,4869,64,4903,72L4937.1,80L4937.1,160L4902.9,160C4868.6,160,4800,160,4731,160C4662.9,160,4594,160,4526,160C4457.1,160,4389,160,4320,160C4251.4,160,4183,160,4114,160C4045.7,160,3977,160,3909,160C3840,160,3771,160,3703,160C3634.3,160,3566,160,3497,160C3428.6,160,3360,160,3291,160C3222.9,160,3154,160,3086,160C3017.1,160,2949,160,2880,160C2811.4,160,2743,160,2674,160C2605.7,160,2537,160,2469,160C2400,160,2331,160,2263,160C2194.3,160,2126,160,2057,160C1988.6,160,1920,160,1851,160C1782.9,160,1714,160,1646,160C1577.1,160,1509,160,1440,160C1371.4,160,1303,160,1234,160C1165.7,160,1097,160,1029,160C960,160,891,160,823,160C754.3,160,686,160,617,160C548.6,160,480,160,411,160C342.9,160,274,160,206,160C137.1,160,69,160,34,160L0,160Z">
+                              </path>
+                         </svg>
+                    </div>
+               </div>
+          </section>
+
+          <section id="services">
+               <div class="container mx-auto py-5">
+                    <div
+                         class="w-75 d-flex flex-column justify-content-center align-items-center py-5 text-center mx-auto">
+                         <h2 class="fw-bold mb-3">Services We Provide</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur culpa eveniet!
+                              Quae sequi, non illo provident velit optio iste nobis eum dolores officia ad sed
+                              dignissimos, accusamus est inventore?</p>
+                    </div>
+                    <div class="row user-select-none gap-3 gap-md-0 px-1 px-md-0">
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card p-1">
+                                   <div class="card-body text-center">
+                                        <h5 class="card-title mb-3 fw-semibold">HTML</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                             additional content.</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card p-1">
+                                   <div class="card-body text-center">
+                                        <h5 class="card-title mb-3 fw-semibold">Frontend</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                             additional content.</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card p-1">
+                                   <div class="card-body text-center">
+                                        <h5 class="card-title mb-3 fw-semibold">Backend</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                             additional content.</p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card p-1">
+                                   <div class="card-body text-center">
+                                        <h5 class="card-title mb-3 fw-semibold">MERN-Stack</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                             additional content.</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="projects">
+               <div class="container mx-auto py-5">
+                    <div
+                         class="w-75 d-flex flex-column justify-content-start align-items-center py-5 text-center mx-auto">
+                         <h2 class="fw-bold mb-3">Recent Projects</h2>
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam earum officia sint
+                              exercitationem optio. Inventore voluptatum earum asperiores cumque, mollitia maiores sint
+                              perspiciatis reprehenderit accusamus? Fuga perferendis accusantium consectetur doloremque
+                              ullam tempore reiciendis dicta ipsa itaque rerum corrupti, dolore a, expedita atque
+                              maiores esse dolor voluptatum quisquam quos debitis laborum!</p>
+                    </div>
+                    <div>
+                         <nav>
+                              <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                                   <button class="nav-link active fs-5 mx-1" id="#nav-all" data-bs-toggle="tab"
+                                        data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">All</button>
+                                   <button class="nav-link fs-5 mx-1" id="#nav-html" data-bs-toggle="tab"
+                                        data-bs-target="#nav-html" type="button" role="tab" aria-controls="nav-profile"
+                                        aria-selected="false">HTML</button>
+                                   <button class="nav-link fs-5 mx-1" id="#nav-frontend" data-bs-toggle="tab"
+                                        data-bs-target="#nav-frontend" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Frontend</button>
+                                   <button class="nav-link fs-5 mx-1" id="#nav-backend" data-bs-toggle="tab"
+                                        data-bs-target="#nav-backend" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">Backend</button>
+                                   <button class="nav-link fs-5 mx-1" id="#nav-mern-stack" data-bs-toggle="tab"
+                                        data-bs-target="#nav-mern-stack" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false">MERN-Stack</button>
+                              </div>
+                         </nav>
+                         <div class="tab-content" id="nav-tabContent">
+                              <div class="tab-pane fade show active p-3 p-md-5" id="nav-all" role="tabpanel"
+                                   aria-labelledby="#nav-all" tabindex="0">
+                                   <div class="row user-select-none">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4 mx-6"
+                                                       alt="Boat on Calm Water" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Wintry Mountain Landscape" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Mountains in the Clouds" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Boat on Calm Water" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Yosemite National Park" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="tab-pane fade p-3 p-md-5" id="nav-html" role="tabpanel"
+                                   aria-labelledby="nav-html" tabindex="0">
+                                   <div class="row user-select-none">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4 mx-6"
+                                                       alt="Boat on Calm Water" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Boat on Calm Water" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="tab-pane fade p-3 p-md-5" id="nav-frontend" role="tabpanel"
+                                   aria-labelledby="nav-frontend" tabindex="0">
+                                   <div class="row user-select-none">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Wintry Mountain Landscape" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Mountains in the Clouds" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Yosemite National Park" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="tab-pane fade p-3 p-md-5" id="nav-backend" role="tabpanel"
+                                   aria-labelledby="nav-backend" tabindex="0">
+                                   <div class="row user-select-none">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4 mx-6"
+                                                       alt="Boat on Calm Water" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Boat on Calm Water" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="tab-pane fade p-3 p-md-5" id="nav-mern-stack" role="tabpanel"
+                                   aria-labelledby="nav-mern-stack" tabindex="0">
+                                   <div class="row user-select-none">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Wintry Mountain Landscape" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Mountains in the Clouds" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                             <div class="position-relative project-card">
+                                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                                                       class="w-100 shadow-1-strong rounded mb-4"
+                                                       alt="Yosemite National Park" />
+                                                  <div
+                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       <div
+                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            <h4 class="mb-0">Project Name</h4>
+                                                            <div
+                                                                 class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
+                                                                 <i class="bi bi-link"></i>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="pricing">
+               <div class="container mx-auto py-5">
+                    <div
+                         class="w-75 d-flex flex-column justify-content-start align-items-center py-5 text-center mx-auto">
+                         <h2 class="fw-bold mb-3">Check Our Pricing</h2>
+                         <p class="w-75">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe,
+                              quos voluptatem quia laboriosam nesciunt necessitatibus debitis odio ea. Nulla?</p>
+                    </div>
+                    <div class="row user-select-none gap-3 gap-md-0 px-1 px-md-0">
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card mb-3 text-center">
+                                   <div class="card-header bg-transparent fs-4 fw-bold text-center">HTML</div>
+                                   <div class="card-body py-4">
+                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$10</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="card-text">
+                                             <ul class="list-group list-group-flush">
+                                                  <li class="list-group-item">Lorem, ipsum dolor.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor.</li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                                   <div class="card-footer bg-transparent py-3">
+                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire Now</button>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card mb-3 text-center">
+                                   <div class="card-header bg-transparent fs-4 fw-bold text-center">Frontend</div>
+                                   <div class="card-body py-4">
+                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$20</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="card-text">
+                                             <ul class="list-group list-group-flush">
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                                   <div class="card-footer bg-transparent py-3">
+                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire Now</button>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card mb-3 text-center">
+                                   <div class="card-header bg-transparent fs-4 fw-bold text-center">Backend</div>
+                                   <div class="card-body py-4">
+                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$30</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="card-text">
+                                             <ul class="list-group list-group-flush">
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                                   <div class="card-footer bg-transparent py-3">
+                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire Now</button>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-3">
+                              <div class="card mb-3 text-center">
+                                   <div class="card-header bg-transparent fs-4 fw-bold text-center">MERN-Stack</div>
+                                   <div class="card-body py-4">
+                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$40</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="card-text">
+                                             <ul class="list-group list-group-flush">
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                                  <li class="list-group-item">Lorem, ipsum dolor sit.</li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                                   <div class="card-footer bg-transparent py-3">
+                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire
+                                             Now</button>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+          </section>
+     </main>
+
+     <footer class="text-center text-lg-start bg-white text-muted mt-5">
+          <section class="border-bottom">
+               <div class="container mx-auto p-4 d-flex justify-content-center justify-content-lg-between">
+                    <div class="me-5 d-none d-lg-block">
+                         <span>Get connected with us on social networks:</span>
+                    </div>
+                    <div>
+                         <a href="" class="fs-5 me-4 link-secondary">
+                              <i class="bi bi-facebook"></i>
+                         </a>
+                         <a href="" class="fs-5 me-4 link-secondary">
+                              <i class="bi bi-twitter"></i>
+                         </a>
+                         <a href="" class="fs-5 me-4 link-secondary">
+                              <i class="bi bi-instagram"></i>
+                         </a>
+                         <a href="" class="fs-5 me-4 link-secondary">
+                              <i class="bi bi-linkedin"></i>
+                         </a>
+                    </div>
+               </div>
+          </section>
+          <section>
+               <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                              <h6 class="text-uppercase fw-bold mb-4">
+                                   <i class="bi bi-browser-edge me-1 text-secondary"></i> Hoque Ltd.
+                              </h6>
+                              <p>
+                                   Here you can use rows and columns to organize your footer content. Lorem ipsum
+                                   dolor sit amet, consectetur adipisicing elit.
+                              </p>
+                         </div>
+                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                              <h6 class="text-uppercase fw-bold mb-4">
+                                   Products
+                              </h6>
+                              <p>
+                                   <a href="#" class="text-reset">HTML & CSS</a>
+                              </p>
+                              <p>
+                                   <a href="#" class="text-reset">Frontend</a>
+                              </p>
+                              <p>
+                                   <a href="#" class="text-reset">Backend</a>
+                              </p>
+                              <p>
+                                   <a href="#" class="text-reset">MERN-Stack</a>
+                              </p>
+                         </div>
+                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                              <h6 class="text-uppercase fw-bold mb-4">
+                                   Useful links
+                              </h6>
+                              <p>
+                                   <a href="#" class="text-reset">Pricing</a>
+                              </p>
+                              <p>
+                                   <a href="#" class="text-reset">Projects</a>
+                              </p>
+                              <p>
+                                   <a href="#" class="text-reset">Reviews</a>
+                              </p>
+                              <p>
+                                   <a href="#" class="text-reset">FAQ</a>
+                              </p>
+                         </div>
+                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                              <p><i class="bi bi-house me-2 text-secondary"></i> Mirpur, Dhaka, Bangladesh</p>
+                              <p><i class="bi bi-envelope me-3 text-secondary"></i><a
+                                        href="mailto:">info@example.com</a></p>
+                              <p><i class="bi bi-phone me-3 text-secondary"></i><a href="tel:">+ 01 234 567 88</a></p>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <div class="text-center p-4 text-light bg-blue">
+               All rights reserved © <span id="year"></span> Copyright <a
+                    class="text-reset fw-bold text-decoration-none" href="index.html">Hoque Ltd.</a>
+          </div>
+     </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+          crossorigin="anonymous"></script>
+
+     <script>
+          const date = new Date();
+          document.getElementById("year").innerText = date.getFullYear();
+
+          const myNav = document.getElementById("nav");
+          window.onscroll = function () {
+               if (document.body.scrollTop >= 150 || document.documentElement.scrollTop >= 150) {
+                    myNav.classList.add("bg-blue");
+                    myNav.classList.remove("bg-transparent");
+               }
+               else {
+                    myNav.classList.add("bg-transparent");
+                    myNav.classList.remove("bg-blue");
+               }
+          };
+     </script>
+</body>
+
+</html>

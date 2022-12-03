@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
+
+body {
+     font-family: 'Solway', serif !important;
+     scroll-behavior: smooth;
+     transition: all 0.5s ease-in-out;
+}
+
+a {
+     text-decoration: none !important;
+     color: inherit !important;
+}
+
+footer a:hover {
+     text-decoration: underline !important;
+}
+
+.cursor-pointer {
+     cursor: pointer !important;
+}
+
+.bottom-15 {
+     bottom: 15% !important;
+}
+
+.bg-image {
+     background-image: url("images/hero-bg.jpg");
+}
+
+header {
+     background-color: #010488e6;
+     transition: 0.3s;
+}
+
+.hero-section {
+     background-color: #010488e6;
+     height: 91vh;
+}
+
+.nav-item {
+     font-size: 1.15rem;
+     margin: 0 5px;
+}
+
+.nav-item:hover {
+     border-bottom: 1px solid white;
+     transition: 0.3s;
+}
+
+.bg-blue {
+     background-color: #010488e6;
+}
+
+.text-blue {
+     color: #010488e6;
+}
+
+.card {
+     cursor: pointer;
+}
+
+.card:hover {
+     border-color: transparent;
+     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.project-card {
+     overflow: hidden !important;
+}
+
+.project-text-card,.project-tall-card {
+     width: 90% !important;
+     margin: auto 20px !important;
+     bottom: 100%;
+     background-color: rgba(255, 255, 255, 0.5);
+     color: white;
+     transition: 0.5s ease-in-out;
+}
+
+.project-card:hover .project-text-card {
+     bottom: 16%;
+}
+
+.project-card:hover .project-tall-card {
+     bottom: 8%;
+}
