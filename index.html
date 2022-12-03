@@ -14,9 +14,9 @@
 
 <body>
      <main>
-          <section id="home" class="bg-image">
+          <section id="home" class="bg-image" data-bs-spy="scroll">
                <header>
-                    <nav class="navbar navbar-expand-lg fixed-top" id="nav">
+                    <nav class="navbar navbar-expand-lg fixed-top user-select-none" id="nav">
                          <div class="container mx-auto">
                               <a class="navbar-brand fs-3 font-bold text-white" href="index.html">Hoque Ltd.</a>
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -59,9 +59,11 @@
                                              class="text-decoration-underline">Hoque Ltd.</span></h2>
                                    <p class="fs-4 mt-3">We develop websites as your need and provide 24/7 support with
                                         best quality</p>
-                                   <a href="#contact"><button
-                                             class="btn btn-outline border border-2 text-light px-4 mt-4">Hire
-                                             Now</button></a>
+                                   <a href="#contact">
+                                        <button
+                                             class="btn btn-outline border border-2  border-light text-light px-4 mt-4 fw-bold">Hire
+                                             Now</button>
+                                   </a>
                               </div>
                          </div>
                          <div class="col d-flex justify-content-end align-items-center">
@@ -74,7 +76,7 @@
                               version="1.1" xmlns="http://www.w3.org/2000/svg">
                               <defs>
                                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-                                        <stop stop-color="rgba(255, 255, 255, 0.98)" offset="0%"></stop>
+                                        <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
                                         <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
                                    </linearGradient>
                               </defs>
@@ -82,6 +84,33 @@
                                    d="M0,112L34.3,98.7C68.6,85,137,59,206,56C274.3,53,343,75,411,80C480,85,549,75,617,77.3C685.7,80,754,96,823,109.3C891.4,123,960,133,1029,125.3C1097.1,117,1166,91,1234,77.3C1302.9,64,1371,64,1440,66.7C1508.6,69,1577,75,1646,85.3C1714.3,96,1783,112,1851,104C1920,96,1989,64,2057,48C2125.7,32,2194,32,2263,26.7C2331.4,21,2400,11,2469,26.7C2537.1,43,2606,85,2674,104C2742.9,123,2811,117,2880,98.7C2948.6,80,3017,48,3086,53.3C3154.3,59,3223,101,3291,122.7C3360,144,3429,144,3497,122.7C3565.7,101,3634,59,3703,45.3C3771.4,32,3840,48,3909,45.3C3977.1,43,4046,21,4114,29.3C4182.9,37,4251,75,4320,93.3C4388.6,112,4457,112,4526,98.7C4594.3,85,4663,59,4731,53.3C4800,48,4869,64,4903,72L4937.1,80L4937.1,160L4902.9,160C4868.6,160,4800,160,4731,160C4662.9,160,4594,160,4526,160C4457.1,160,4389,160,4320,160C4251.4,160,4183,160,4114,160C4045.7,160,3977,160,3909,160C3840,160,3771,160,3703,160C3634.3,160,3566,160,3497,160C3428.6,160,3360,160,3291,160C3222.9,160,3154,160,3086,160C3017.1,160,2949,160,2880,160C2811.4,160,2743,160,2674,160C2605.7,160,2537,160,2469,160C2400,160,2331,160,2263,160C2194.3,160,2126,160,2057,160C1988.6,160,1920,160,1851,160C1782.9,160,1714,160,1646,160C1577.1,160,1509,160,1440,160C1371.4,160,1303,160,1234,160C1165.7,160,1097,160,1029,160C960,160,891,160,823,160C754.3,160,686,160,617,160C548.6,160,480,160,411,160C342.9,160,274,160,206,160C137.1,160,69,160,34,160L0,160Z">
                               </path>
                          </svg>
+                    </div>
+               </div>
+          </section>
+
+          <section id="about">
+               <div class="container mx-auto py-5 mt-5 mb-3">
+                    <div class="row gap-3 gap-md-0 px-1 px-md-0 shadow-sm mt-5">
+                         <div class="col-12 col-md-6 p-0 m-0">
+                              <img src="https://media.istockphoto.com/id/1315139408/photo/successful-african-american-businessman-stretching-hand-for-handshake-in-office.jpg?s=612x612&w=0&k=20&c=PpHArPWGVyhWIzZthz8d4wo2EysZe5dfUtqntkG1R5k="
+                                   class="w-100 h-100" alt="group-photo">
+                         </div>
+                         <div
+                              class="col-12 col-md-6 m-0 bg-blue user-select-none p-5 text-light d-flex flex-column align-content-center justify-content-center">
+                              <div>
+                                   <h2 class="opacity-90">Hoque Ltd.</h2>
+                                   <hr class="w-50 text-light" />
+                                   <p class="opacity-90 text-justify pe-3">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Consectetur vero dolorum corrupti deserunt nemo quaerat quasi
+                                        provident voluptate reprehenderit, sequi velit placeat perspiciatis laborum,
+                                        laboriosam quae facere, amet fugiat. Voluptatem praesentium maiores expedita
+                                        laboriosam ut harum et perspiciatis possimus natus cumque? Ducimus temporibus
+                                        iure, repellat exercitationem unde at accusamus blanditiis!</p>
+                                   <button
+                                        class="btn btn-outline border border-2 text-light border-light px-4 mt-3 fw-bold">Hire
+                                        Now</button>
+                              </div>
+                         </div>
                     </div>
                </div>
           </section>
@@ -97,36 +126,36 @@
                     </div>
                     <div class="row user-select-none gap-3 gap-md-0 px-1 px-md-0">
                          <div class="col-12 col-md-6 col-lg-3">
-                              <div class="card p-1">
+                              <div class="card px-1 py-2">
                                    <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fw-semibold">HTML</h5>
+                                        <h5 class="card-title mb-2 fw-semibold pb-2 border-bottom">HTML</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to
                                              additional content.</p>
                                    </div>
                               </div>
                          </div>
                          <div class="col-12 col-md-6 col-lg-3">
-                              <div class="card p-1">
+                              <div class="card px-1 py-2">
                                    <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fw-semibold">Frontend</h5>
+                                        <h5 class="card-title mb-2 fw-semibold pb-2 border-bottom">Frontend</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to
                                              additional content.</p>
                                    </div>
                               </div>
                          </div>
                          <div class="col-12 col-md-6 col-lg-3">
-                              <div class="card p-1">
+                              <div class="card px-1 py-2">
                                    <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fw-semibold">Backend</h5>
+                                        <h5 class="card-title mb-2 fw-semibold pb-2 border-bottom">Backend</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to
                                              additional content.</p>
                                    </div>
                               </div>
                          </div>
                          <div class="col-12 col-md-6 col-lg-3">
-                              <div class="card p-1">
+                              <div class="card px-1 py-2">
                                    <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fw-semibold">MERN-Stack</h5>
+                                        <h5 class="card-title mb-2 fw-semibold pb-2 border-bottom">MERN-Stack</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to
                                              additional content.</p>
                                    </div>
@@ -150,19 +179,19 @@
                     <div>
                          <nav>
                               <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
-                                   <button class="nav-link active fs-5 mx-1" id="#nav-all" data-bs-toggle="tab"
+                                   <button class="nav-link active fs-5 fw-bold mx-1" id="#nav-all" data-bs-toggle="tab"
                                         data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-home"
                                         aria-selected="true">All</button>
-                                   <button class="nav-link fs-5 mx-1" id="#nav-html" data-bs-toggle="tab"
+                                   <button class="nav-link fs-5 fw-bold mx-1" id="#nav-html" data-bs-toggle="tab"
                                         data-bs-target="#nav-html" type="button" role="tab" aria-controls="nav-profile"
                                         aria-selected="false">HTML</button>
-                                   <button class="nav-link fs-5 mx-1" id="#nav-frontend" data-bs-toggle="tab"
+                                   <button class="nav-link fs-5 fw-bold mx-1" id="#nav-frontend" data-bs-toggle="tab"
                                         data-bs-target="#nav-frontend" type="button" role="tab"
                                         aria-controls="nav-contact" aria-selected="false">Frontend</button>
-                                   <button class="nav-link fs-5 mx-1" id="#nav-backend" data-bs-toggle="tab"
+                                   <button class="nav-link fs-5 fw-bold mx-1" id="#nav-backend" data-bs-toggle="tab"
                                         data-bs-target="#nav-backend" type="button" role="tab"
                                         aria-controls="nav-contact" aria-selected="false">Backend</button>
-                                   <button class="nav-link fs-5 mx-1" id="#nav-mern-stack" data-bs-toggle="tab"
+                                   <button class="nav-link fs-5 fw-bold mx-1" id="#nav-mern-stack" data-bs-toggle="tab"
                                         data-bs-target="#nav-mern-stack" type="button" role="tab"
                                         aria-controls="nav-contact" aria-selected="false">MERN-Stack</button>
                               </div>
@@ -177,9 +206,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4 mx-6"
                                                        alt="Boat on Calm Water" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -193,9 +222,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Wintry Mountain Landscape" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -211,9 +240,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Mountains in the Clouds" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -227,9 +256,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Boat on Calm Water" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -244,9 +273,9 @@
                                                   <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
                                                        class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -260,9 +289,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Yosemite National Park" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -283,9 +312,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4 mx-6"
                                                        alt="Boat on Calm Water" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -300,9 +329,9 @@
                                                   <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
                                                        class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -318,9 +347,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Boat on Calm Water" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -341,9 +370,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Wintry Mountain Landscape" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -359,9 +388,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Mountains in the Clouds" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -377,9 +406,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Yosemite National Park" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -400,9 +429,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4 mx-6"
                                                        alt="Boat on Calm Water" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -417,9 +446,9 @@
                                                   <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
                                                        class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -435,9 +464,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Boat on Calm Water" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 project-text-card text-center rounded shadow-sm">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-text-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -458,9 +487,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Wintry Mountain Landscape" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -476,9 +505,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Mountains in the Clouds" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -494,9 +523,9 @@
                                                        class="w-100 shadow-1-strong rounded mb-4"
                                                        alt="Yosemite National Park" />
                                                   <div
-                                                       class="position-absolute px-4 py-3 text-center rounded shadow-sm project-tall-card">
+                                                       class="position-absolute px-3 py-2 text-center rounded shadow-sm project-tall-card">
                                                        <div
-                                                            class="d-flex align-items-center justify-content-between py-auto">
+                                                            class="d-flex align-items-center justify-content-between py-0">
                                                             <h4 class="mb-0">Project Name</h4>
                                                             <div
                                                                  class="px-2 py-1 bg-light text-dark rounded-circle cursor-pointer">
@@ -513,6 +542,305 @@
                </div>
           </section>
 
+          <section id="faq">
+               <div class="container mx-auto mt-3 p-5">
+                    <div
+                         class="w-75 d-flex flex-column justify-content-center align-items-center py-5 text-center mx-auto">
+                         <h2 class="fw-bold mb-3">Frequently Asked Questions</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iste dolorum aperiam
+                              doloribus reprehenderit nulla voluptatibus, quisquam excepturi sit repudiandae nesciunt
+                              iusto veniam inventore eveniet.</p>
+                    </div>
+                    <div class="row user-select-none gap-3 gap-md-0 px-1 px-md-0">
+                         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                              <div class="accordion accordion-flush" id="accordionFlushExample">
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                  aria-expanded="false" aria-controls="flush-collapseOne">
+                                                  Accordion Item #1
+                                             </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                             <div class="accordion-body">Placeholder content for this accordion, which
+                                                  is intended to demonstrate the <code>.accordion-flush</code> class.
+                                                  This is the first item's accordion body.</div>
+                                        </div>
+                                   </div>
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                  aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                  Accordion Item #2
+                                             </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                             aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                             <div class="accordion-body">Placeholder content for this accordion, which
+                                                  is intended to demonstrate the <code>.accordion-flush</code> class.
+                                                  This is the second item's accordion body. Let's imagine this being
+                                                  filled with some actual content.</div>
+                                        </div>
+                                   </div>
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                  aria-expanded="false" aria-controls="flush-collapseThree">
+                                                  Accordion Item #3
+                                             </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                             aria-labelledby="flush-headingThree"
+                                             data-bs-parent="#accordionFlushExample">
+                                             <div class="accordion-body">Placeholder content for this accordion, which
+                                                  is intended to demonstrate the <code>.accordion-flush</code> class.
+                                                  This is the third item's accordion body. Nothing more exciting
+                                                  happening here in terms of content, but just filling up the space to
+                                                  make it look, at least at first glance, a bit more representative of
+                                                  how this would look in a real-world application.</div>
+                                        </div>
+                                   </div>
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                  aria-expanded="false" aria-controls="flush-collapseThree">
+                                                  Accordion Item #4
+                                             </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                             aria-labelledby="flush-headingThree"
+                                             data-bs-parent="#accordionFlushExample">
+                                             <div class="accordion-body">Placeholder content for this accordion, which
+                                                  is intended to demonstrate the <code>.accordion-flush</code> class.
+                                                  This is the third item's accordion body. Nothing more exciting
+                                                  happening here in terms of content, but just filling up the space to
+                                                  make it look, at least at first glance, a bit more representative of
+                                                  how this would look in a real-world application.</div>
+                                        </div>
+                                   </div>
+                                   <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingThree">
+                                             <button class="accordion-button collapsed" type="button"
+                                                  data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                  aria-expanded="false" aria-controls="flush-collapseThree">
+                                                  Accordion Item #5
+                                             </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                             aria-labelledby="flush-headingThree"
+                                             data-bs-parent="#accordionFlushExample">
+                                             <div class="accordion-body">Placeholder content for this accordion, which
+                                                  is intended to demonstrate the <code>.accordion-flush</code> class.
+                                                  This is the third item's accordion body. Nothing more exciting
+                                                  happening here in terms of content, but just filling up the space to
+                                                  make it look, at least at first glance, a bit more representative of
+                                                  how this would look in a real-world application.</div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6">
+                              <img src="images/faq-banner.png" alt="FAQ" height="500px" width="100%"
+                                   draggable="false" />
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="reviews">
+               <div class="container mx-auto p-5">
+                    <div
+                         class="w-75 d-flex flex-column justify-content-start align-items-center pt-5 text-center mx-auto">
+                         <h2 class="fw-bold mb-3">Client's Feedback</h2>
+                         <p class="w-75">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe,
+                              quos voluptatem quia laboriosam nesciunt necessitatibus debitis odio ea. Nulla?</p>
+                    </div>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade pt-5"
+                         data-bs-ride="carousel">
+                         <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                   <div class="row user-select-none">
+                                        <div class="col-12 col-md-6">
+                                             <div class="card mb-3">
+                                                  <div class="row g-0">
+                                                       <div class="col-md-4">
+                                                            <img src="https://bootstrapmade.com/demo/templates/Appland/assets/img/testimonials/testimonials-4.jpg"
+                                                                 class="img-fluid rounded-start" alt="User"
+                                                                 draggable="false">
+                                                       </div>
+                                                       <div class="col-md-8">
+                                                            <div class="card-body px-4 pt-3">
+                                                                 <h5 class="card-title fw-bold">Matt Brandon</h5>
+                                                                 <h6 class="card-subtitle mb-2 text-muted">Teacher</h6>
+                                                                 <p class="card-text mb-1">This is a wider card with
+                                                                      supporting text below as a natural lead-in to
+                                                                      additional content. This content is a little bit
+                                                                      longer.</p>
+                                                                 <div class="text-blue fs-5">
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                             <div class="card mb-3">
+                                                  <div class="row g-0">
+                                                       <div class="col-md-4">
+                                                            <img src="https://bootstrapmade.com/demo/templates/Appland/assets/img/testimonials/testimonials-5.jpg"
+                                                                 class="img-fluid rounded-start" alt="User"
+                                                                 draggable="false">
+                                                       </div>
+                                                       <div class="col-md-8">
+                                                            <div class="card-body px-4 pt-3">
+                                                                 <h5 class="card-title fw-bold">John Larson</h5>
+                                                                 <h6 class="card-subtitle mb-2 text-muted">Entreprenuer
+                                                                 </h6>
+                                                                 <p class="card-text mb-1">This is a wider card with
+                                                                      supporting text below as a natural lead-in to
+                                                                      additional content. This content is a little bit
+                                                                      longer.</p>
+                                                                 <div class="text-blue fs-5">
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="carousel-item">
+                                   <div class="row">
+                                        <div class="col-12 col-md-6">
+                                             <div class="card mb-3">
+                                                  <div class="row g-0">
+                                                       <div class="col-md-4">
+                                                            <img src="https://bootstrapmade.com/demo/templates/Appland/assets/img/testimonials/testimonials-4.jpg"
+                                                                 class="img-fluid rounded-start" alt="User"
+                                                                 draggable="false">
+                                                       </div>
+                                                       <div class="col-md-8">
+                                                            <div class="card-body px-4 pt-3">
+                                                                 <h5 class="card-title fw-bold">Matt Brandon</h5>
+                                                                 <h6 class="card-subtitle mb-2 text-muted">Teacher</h6>
+                                                                 <p class="card-text mb-1">This is a wider card with
+                                                                      supporting text below as a natural lead-in to
+                                                                      additional content. This content is a little bit
+                                                                      longer.</p>
+                                                                 <div class="text-blue fs-5">
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                             <div class="card mb-3">
+                                                  <div class="row g-0">
+                                                       <div class="col-md-4">
+                                                            <img src="https://bootstrapmade.com/demo/templates/Appland/assets/img/testimonials/testimonials-5.jpg"
+                                                                 class="img-fluid rounded-start" alt="User"
+                                                                 draggable="false">
+                                                       </div>
+                                                       <div class="col-md-8">
+                                                            <div class="card-body px-4 pt-3">
+                                                                 <h5 class="card-title fw-bold">John Larson</h5>
+                                                                 <h6 class="card-subtitle mb-2 text-muted">Entreprenuer
+                                                                 </h6>
+                                                                 <p class="card-text mb-1">This is a wider card with
+                                                                      supporting text below as a natural lead-in to
+                                                                      additional content. This content is a little bit
+                                                                      longer.</p>
+                                                                 <div class="text-blue fs-5">
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                      <i class="bi bi-star-fill"></i>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section id="blogs">
+               <div class="container mx-auto p-5">
+                    <div
+                         class="w-75 d-flex flex-column justify-content-start align-items-center pt-5 text-center mx-auto">
+                         <h2 class="fw-bold mb-3">Our Blogs</h2>
+                         <p class="w-75">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe,
+                              quos voluptatem quia laboriosam nesciunt necessitatibus debitis odio ea. Nulla?</p>
+                    </div>
+                    <div class="row my-5">
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card shadow-sm">
+                                   <div class="card-body">
+                                        <h5 class="card-title">Blog Title</h5>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quis eaque perferendis vitae ab est nam vero repellat illum consectetur?</p>
+                                        <a href="#" class="btn btn-blue">Read full</a>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card shadow-sm">
+                                   <div class="card-body">
+                                        <h5 class="card-title">Blog Title</h5>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quis eaque perferendis vitae ab est nam vero repellat illum consectetur?</p>
+                                        <a href="#" class="btn btn-blue">Read full</a>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6 col-lg-4">
+                              <div class="card shadow-sm">
+                                   <div class="card-body">
+                                        <h5 class="card-title">Blog Title</h5>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quis eaque perferendis vitae ab est nam vero repellat illum consectetur?</p>
+                                        <a href="#" class="btn btn-blue">Read full</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <section class="bg-blue py-3 my-4">
+               <div class="w-50 p-5 d-flex flex-column justify-content-center align-items-center mx-auto text-light">
+                    <h2>Newsletter</h2>
+                    <h6>Subscribe to Our Newwsletter for All Updates</h6>
+                    <div class="input-group my-4 mx-auto">
+                         <input type="text" class="form-control py-2" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+                         <button class="btn btn-outline-light fw-bold" type="button" id="button-addon2">SUBSCRIBE</button>
+                    </div>
+               </div>
+          </section>
+          
           <section id="pricing">
                <div class="container mx-auto py-5">
                     <div
@@ -526,7 +854,8 @@
                               <div class="card mb-3 text-center">
                                    <div class="card-header bg-transparent fs-4 fw-bold text-center">HTML</div>
                                    <div class="card-body py-4">
-                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$10</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="mb-3 display-5"><span class="text-blue fw-bold">$10</span> <sup
+                                                  class="fs-6 fw-semibold">/day</sup></div>
                                         <div class="card-text">
                                              <ul class="list-group list-group-flush">
                                                   <li class="list-group-item">Lorem, ipsum dolor.</li>
@@ -536,8 +865,8 @@
                                              </ul>
                                         </div>
                                    </div>
-                                   <div class="card-footer bg-transparent py-3">
-                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire Now</button>
+                                   <div class="card-footer bg-transparent btn text-dark px-4 py-3 hire-btn">
+                                        Hire Now
                                    </div>
                               </div>
                          </div>
@@ -545,7 +874,8 @@
                               <div class="card mb-3 text-center">
                                    <div class="card-header bg-transparent fs-4 fw-bold text-center">Frontend</div>
                                    <div class="card-body py-4">
-                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$20</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="mb-3 display-5"><span class="text-blue fw-bold">$20</span> <sup
+                                                  class="fs-6 fw-semibold">/day</sup></div>
                                         <div class="card-text">
                                              <ul class="list-group list-group-flush">
                                                   <li class="list-group-item">Lorem, ipsum dolor sit.</li>
@@ -555,8 +885,8 @@
                                              </ul>
                                         </div>
                                    </div>
-                                   <div class="card-footer bg-transparent py-3">
-                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire Now</button>
+                                   <div class="card-footer bg-transparent btn text-dark px-4 py-3 hire-btn">
+                                        Hire Now
                                    </div>
                               </div>
                          </div>
@@ -564,7 +894,8 @@
                               <div class="card mb-3 text-center">
                                    <div class="card-header bg-transparent fs-4 fw-bold text-center">Backend</div>
                                    <div class="card-body py-4">
-                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$30</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="mb-3 display-5"><span class="text-blue fw-bold">$30</span> <sup
+                                                  class="fs-6 fw-semibold">/day</sup></div>
                                         <div class="card-text">
                                              <ul class="list-group list-group-flush">
                                                   <li class="list-group-item">Lorem, ipsum dolor sit.</li>
@@ -574,8 +905,8 @@
                                              </ul>
                                         </div>
                                    </div>
-                                   <div class="card-footer bg-transparent py-3">
-                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire Now</button>
+                                   <div class="card-footer bg-transparent btn text-dark px-4 py-3 hire-btn">
+                                        Hire Now
                                    </div>
                               </div>
                          </div>
@@ -583,7 +914,8 @@
                               <div class="card mb-3 text-center">
                                    <div class="card-header bg-transparent fs-4 fw-bold text-center">MERN-Stack</div>
                                    <div class="card-body py-4">
-                                        <div class="mb-3 display-6"><span class="text-blue fw-bold">$40</span> <sup class="fs-6 fw-semibold">/day</sup></div>
+                                        <div class="mb-3 display-5"><span class="text-blue fw-bold">$40</span> <sup
+                                                  class="fs-6 fw-semibold">/day</sup></div>
                                         <div class="card-text">
                                              <ul class="list-group list-group-flush">
                                                   <li class="list-group-item">Lorem, ipsum dolor sit.</li>
@@ -593,15 +925,94 @@
                                              </ul>
                                         </div>
                                    </div>
-                                   <div class="card-footer bg-transparent py-3">
-                                        <button class="btn btn-outline text-dark border-dark rounded-pill px-4">Hire
-                                             Now</button>
+                                   <div class="card-footer bg-transparent btn text-dark px-4 py-3 hire-btn">
+                                        Hire Now
                                    </div>
                               </div>
                          </div>
                     </div>
                </div>
 
+          </section>
+
+          <section id="contact">
+               <div class="container mx-auto py-5 my-5 px-3 px-md-0">
+                    <div class="row">
+                         <div class="col-12 col-md-6">
+                              <div class="rounded-3 py-5 text-center bg-blue mb-4 shadow-sm">
+                                   <div class="d-flex justify-content-center align-items-center text-light fs-3">
+                                        <i class="bi bi-house"></i>
+                                   </div>
+                                   <h5 class="text-white mt-2 user-select-none">Mirpur, Dhaka, Bangladesh</h5>
+                              </div>
+                         </div>
+                         <div class="col-12 col-md-6">
+                              <div class="row mb-4">
+                                   <div class="col-12 col-md-6">
+                                        <div
+                                             class="border border-1 border-dark rounded-3 py-5 text-center bg-blue shadow-sm">
+                                             <div
+                                                  class="d-flex justify-content-center align-items-center text-light fs-3">
+                                                  <i class="bi bi-envelope"></i>
+                                             </div>
+                                             <h5 class="text-white mt-2"><a href="mailto:"
+                                                       class="text-light text-decoration-none user-select-none">info@hoqueltd.bd</a>
+                                             </h5>
+                                        </div>
+                                   </div>
+                                   <div class="col-12 col-md-6 mt-4 mt-md-0">
+                                        <div
+                                             class="border border-1 border-dark rounded-3 py-5 text-center bg-blue shadow-sm">
+                                             <div
+                                                  class="d-flex justify-content-center align-items-center text-light fs-3">
+                                                  <i class="bi bi-telephone"></i>
+                                             </div>
+                                             <h5 class="text-white mt-2"><a href="tel:"
+                                                       class="text-light text-decoration-none user-select-none">+880123456789</a>
+                                             </h5>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-12 col-md-6 mb-4 mb-md-0">
+                              <iframe
+                                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1690.0988900753991!2d90.35742948081284!3d23.789582948169986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0c1089c485f%3A0x646b6cc49f14a469!2sMiddle%20Paikpara%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1670076819326!5m2!1sen!2sbd"
+                                   height="100%" class="w-100 shadow-sm rounded-3" style="border:0;" allowfullscreen=""
+                                   loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </div>
+                         <div class="col-12 col-md-6 mb-4 mb-md-0">
+                              <div class="bg-blue rounded-3 shadow-sm text-light p-4 p-md-5">
+                                   <div>
+                                        <h4 class="fw-bold">Get in touch</h4>
+                                        <hr class="w-50" />
+                                   </div>
+                                   <div>
+                                        <form>
+                                             <div class="mb-3">
+                                                  <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                       placeholder="John Doe">
+                                             </div>
+                                             <div class="mb-3">
+                                                  <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                       placeholder="name@example.com">
+                                             </div>
+                                             <div class="mb-3">
+                                                  <textarea class="form-control resize-none"
+                                                       id="exampleFormControlTextarea1" rows="4"
+                                                       placeholder="Type Your Message"></textarea>
+                                             </div>
+                                             <div class="d-flex justify-content-end">
+                                                  <button
+                                                       class="btn btn-outline text-light border-light px-4 text-uppercase">Send</button>
+                                             </div>
+                                        </form>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
           </section>
      </main>
 
@@ -611,23 +1022,23 @@
                     <div class="me-5 d-none d-lg-block">
                          <span>Get connected with us on social networks:</span>
                     </div>
-                    <div>
-                         <a href="" class="fs-5 me-4 link-secondary">
+                    <div class="sm-icon">
+                         <a href="https://www.facebook.com/" class="fs-5 me-4 link-secondary">
                               <i class="bi bi-facebook"></i>
                          </a>
-                         <a href="" class="fs-5 me-4 link-secondary">
+                         <a href="https://www.twitter.com/" class="fs-5 me-4 link-secondary">
                               <i class="bi bi-twitter"></i>
                          </a>
-                         <a href="" class="fs-5 me-4 link-secondary">
+                         <a href="https://www.instagram.com/" class="fs-5 me-4 link-secondary">
                               <i class="bi bi-instagram"></i>
                          </a>
-                         <a href="" class="fs-5 me-4 link-secondary">
+                         <a href="https://www.linkedin.com/" class="fs-5 me-4 link-secondary">
                               <i class="bi bi-linkedin"></i>
                          </a>
                     </div>
                </div>
           </section>
-          <section>
+          <section class="footer-wrapper">
                <div class="container text-center text-md-start mt-5">
                     <div class="row mt-3">
                          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
@@ -661,16 +1072,16 @@
                                    Useful links
                               </h6>
                               <p>
-                                   <a href="#" class="text-reset">Pricing</a>
+                                   <a href="#blogs" class="text-reset">Blogs</a>
                               </p>
                               <p>
-                                   <a href="#" class="text-reset">Projects</a>
+                                   <a href="#projects" class="text-reset">Projects</a>
                               </p>
                               <p>
-                                   <a href="#" class="text-reset">Reviews</a>
+                                   <a href="#reviews" class="text-reset">Reviews</a>
                               </p>
                               <p>
-                                   <a href="#" class="text-reset">FAQ</a>
+                                   <a href="#faq" class="text-reset">FAQ</a>
                               </p>
                          </div>
                          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -690,7 +1101,6 @@
      </footer>
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
           crossorigin="anonymous"></script>
 
      <script>
@@ -708,6 +1118,9 @@
                     myNav.classList.remove("bg-blue");
                }
           };
+
+          // document.documentElement.scrollTop = 0;
+          // document.body.scrollTop = 0;
      </script>
 </body>
 

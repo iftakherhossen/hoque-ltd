@@ -1,9 +1,11 @@
+/* Import Font */
 @import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
 
+/* Common CSS */
 body {
      font-family: 'Solway', serif !important;
-     scroll-behavior: smooth;
-     transition: all 0.5s ease-in-out;
+     scroll-behavior: smooth !important;
+     transition: all 0.5s ease-in-out !important;
 }
 
 a {
@@ -11,8 +13,12 @@ a {
      color: inherit !important;
 }
 
-footer a:hover {
+footer .footer-wrapper a:hover {
      text-decoration: underline !important;
+}
+
+footer .sm-icon a:hover {
+     color: #010488e6 !important;
 }
 
 .cursor-pointer {
@@ -27,16 +33,86 @@ footer a:hover {
      background-image: url("images/hero-bg.jpg");
 }
 
+.bg-blue {
+     background-color: #010488e6;
+}
+
+.text-blue {
+     color: #010488e6;
+}
+
+.btn-blue {
+     background-color: #010488e6 !important;
+     color: white !important;
+}
+
+.btn:hover {
+     background-color: white !important;
+     color: #010488e6 !important;
+}
+
+.hire-btn {
+     color: #010488e6;
+     transition: all 0.3s ease-in-out;
+}
+
+.hire-btn:hover {
+     background-color: #010488e6 !important;
+     color: white !important;
+}
+
+.resize-none {
+     resize: none;
+}
+
+form input:focus {
+     outline: 0 !important;
+}
+
+.opacity-90 {
+     opacity: 0.95;
+}
+
+.text-justify {
+     text-align: justify !important;
+}
+
+.z-20 {
+     z-index: 20;
+}
+
+::-moz-selection {
+     color: white;
+     background: #010488e6;
+     transition: 0.3s ease-in-out;
+}
+
+::selection {
+     color: white;
+     background: #010488e6;
+     transition: 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar {
+     width: 11px;
+}
+
+::-webkit-scrollbar-track {
+     background: white;
+}
+
+::-webkit-scrollbar-thumb {
+     background: #010488e6;
+     border-radius: 5px;
+}
+
+/* Header */
 header {
      background-color: #010488e6;
      transition: 0.3s;
 }
 
-.hero-section {
-     background-color: #010488e6;
-     height: 91vh;
-}
-
+/* Nav Item */
 .nav-item {
      font-size: 1.15rem;
      margin: 0 5px;
@@ -47,28 +123,51 @@ header {
      transition: 0.3s;
 }
 
-.bg-blue {
+.nav-item:focus {
+     border-bottom: 1px solid white !important;
+}
+
+/* Hero Section */
+.hero-section {
      background-color: #010488e6;
+     height: 99vh;
 }
 
-.text-blue {
-     color: #010488e6;
-}
-
-.card {
+/* Service Card */
+#services .card {
      cursor: pointer;
+     background-color: #010488e6 !important;
+     color: white;
+     transition: all 0.5s ease-in-out;
+     border: 0 !important;
+     border-bottom: 4px solid transparent !important;
 }
 
-.card:hover {
-     border-color: transparent;
+#services .card:hover {
+     cursor: pointer;
+     background-color: white !important;
+     color: #010488e6;
+     border: 0 !important;
+     border-bottom: 4px solid #010488e6 !important;
      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
+/* Normal Card */
+#pricing .card {
+     cursor: pointer;
+}
+
+#pricing .card:hover {
+     border-color: #010488e6;
+     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+/* Project Card */
 .project-card {
      overflow: hidden !important;
 }
 
-.project-text-card,.project-tall-card {
+.project-text-card, .project-tall-card {
      width: 90% !important;
      margin: auto 20px !important;
      bottom: 100%;
@@ -78,9 +177,14 @@ header {
 }
 
 .project-card:hover .project-text-card {
-     bottom: 16%;
+     bottom: 14%;
 }
 
 .project-card:hover .project-tall-card {
-     bottom: 8%;
+     bottom: 7%;
+}
+
+/* Carousel */
+.carousel {
+     transition: all 0.3s ease-in-out;
 }
