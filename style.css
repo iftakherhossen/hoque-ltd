@@ -167,7 +167,8 @@ header {
      overflow: hidden !important;
 }
 
-.project-text-card, .project-tall-card {
+.project-text-card,
+.project-tall-card {
      width: 90% !important;
      margin: auto 20px !important;
      bottom: 100%;
