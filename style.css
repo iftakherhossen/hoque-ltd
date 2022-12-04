@@ -81,6 +81,14 @@ form input:focus {
      z-index: 20;
 }
 
+.end-10 {
+     right: 10%;
+}
+
+.bg-text {
+     color: #d4d3d3;
+}
+
 ::-moz-selection {
      color: white;
      background: #010488e6;
@@ -188,4 +196,14 @@ header {
 /* Carousel */
 .carousel {
      transition: all 0.3s ease-in-out;
+}
+
+/* Stats */
+#stats .card {
+     border: 2px solid #010488e6;
+     color: #010488e6 !important;
+}
+
+#stats .card:hover {
+     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
